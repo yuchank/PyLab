@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='argparseex',
+    # name='argparseex',
+    name='cello',
     version='1.0.0',
     author='Qing',
     author_email='qing@email.com',
@@ -9,7 +10,8 @@ setup(
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "greet = cliex.argparseex:main"
+            # 'greet = cliex.argparseex:main'
+            'cello = cliex.clickex:main'
         ]
     },
     classifiers=[
